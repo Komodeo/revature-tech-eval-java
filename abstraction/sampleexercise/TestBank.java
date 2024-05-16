@@ -6,20 +6,11 @@ To implement different functionalities for the getRateOfInterest() method in the
 
 package abstraction.sampleexercise;
 
-abstract class Bank { // Abstract class
-    static float getRateOfInterest() {
-        return 10f;
-    } // Abstract method
-}
-
-class SBI extends Bank {
-    static float getRateOfInterest() {
-        return 7f;
-    }
-}
-
-class PNB extends Bank {
-    static float getRateOfInterest() {
-        return 5f;
+class TestBank {
+    public static void main(String[] args)
+    {
+        System.out.println(Bank.getRateOfInterest());
+        System.out.println(SBI.getRateOfInterest());
+        System.out.println(PNB.getRateOfInterest());
     }
 }
