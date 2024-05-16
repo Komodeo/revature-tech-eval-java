@@ -17,10 +17,26 @@ class SBI extends Bank {
     }
 }
 
+class ICICI extends Bank {
+    // Overriding method
+    public static float getRateOfInterest() {
+        return 7f;
+    }
+}
+
+class AXIS extends Bank {
+    // Overriding method
+    public static float getRateOfInterest() {
+        return 9f;
+    }
+}
+
 class Main {
     public static void main(String[] args)
     {
         System.out.println(Bank.getRateOfInterest());
         System.out.println(SBI.getRateOfInterest());
+        System.out.println(ICICI.getRateOfInterest());
+        System.out.println(AXIS.getRateOfInterest());
     }
 }
