@@ -6,10 +6,10 @@
     "configurations": [
         {
             "type": "java",
-            "name": "TestOverloading2",
+            "name": "RevatureTechEval",
             "request": "launch",
-            "mainClass": "TestOverloading2",
-            "projectName": "revature-tech-eval-java_c2f1e86d"
+            "mainClass": "Adder",
+            "projectName": "revature-tech-eval-java"
         },
         {
             "type": "java",
