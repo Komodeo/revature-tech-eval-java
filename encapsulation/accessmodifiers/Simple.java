@@ -3,7 +3,7 @@
 package encapsulation.accessmodifiers;
 
 class A {
-  protected void msg() {
+  void msg() { // removing protected keyword resolved below issue
     System.out.println("Hello java");
   }
 }
