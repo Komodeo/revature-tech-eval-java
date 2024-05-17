@@ -1,6 +1,6 @@
 // Example declaring interfaces
 
-package interfaces.declaring;
+package interfaces;
 
 /* File name : Animal.java */
 interface Animal {
