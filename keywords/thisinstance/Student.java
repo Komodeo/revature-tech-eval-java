@@ -1,6 +1,6 @@
 // "this" : to refer current class instance variable
 
-package keywords.this_;
+package keywords.thisinstance;
 
 class Student {
     int rollno;
